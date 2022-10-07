@@ -7,10 +7,10 @@ from django.template import loader
 
 def mostrar_familiares(request):
     template=loader.get_template("templatefamilia.html")
-    fam_1=Familiares(nombre="Estefania",edad=53,tipo="madre",profesion="medica",fecha_de_nacimiento="19-11-1968")
-    fam_2=Familiares(nombre="Belen",edad=21,tipo="hermana",profesion="estudiante",fecha_de_nacimiento="14-4-2001")
-    fam_3=Familiares(nombre="Pablo",edad=53,tipo="padre",profesion="vendedor",fecha_de_nacimiento="23-3-1969")
-    fam_4=Familiares(nombre="Alejandro",edad=8,tipo="hermano",profesion="estudiante de primario",fecha_de_nacimiento="19-12-2013")
+    fam_1=Familiares(nombre="More",edad=45,tipo="madre",profesion="cosmetologa",fecha_de_nacimiento="1979-12-13")
+    fam_2=Familiares(nombre="Becha",edad=19,tipo="hermana",profesion="cajera",fecha_de_nacimiento="17-7-2000")
+    fam_3=Familiares(nombre="Pedro",edad=78,tipo="padre",profesion="ingeniero",fecha_de_nacimiento="31-3-1969")
+    fam_4=Familiares(nombre="Armando",edad=12,tipo="hermano",profesion="nene",fecha_de_nacimiento="20-2-2015")
     
     
     dict_de_contexto={
